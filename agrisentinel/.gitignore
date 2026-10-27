@@ -1,0 +1,23 @@
+# Local runtime secrets and data (see README)
+backend/.env
+backend/.secret_key
+backend/db.sqlite3
+backend/media/
+.tmp/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

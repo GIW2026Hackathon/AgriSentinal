@@ -1,0 +1,73 @@
+{
+  "version": "1.4.0",
+  "trained_at": "2026-10-26T20:29:58.050438+00:00",
+  "cnn": {
+    "accuracy": 0.5703,
+    "mae": 3.68,
+    "r2": 0.943,
+    "samples": 800,
+    "epochs": 22
+  },
+  "quality_rf": {
+    "mae": 3.68,
+    "r2": 0.943
+  },
+  "shelf_lstm": {
+    "mae_days": 0.81,
+    "samples": 2600,
+    "epochs": 26
+  },
+  "classes": [
+    "fresh",
+    "ripe",
+    "overripe",
+    "defective"
+  ],
+  "crop_keys": [
+    "tomato",
+    "kale",
+    "avocado",
+    "mango",
+    "potato",
+    "onion",
+    "cabbage",
+    "banana"
+  ],
+  "feature_names": [
+    "h_mean",
+    "h_std",
+    "s_mean",
+    "s_std",
+    "v_mean",
+    "v_std",
+    "brown_ratio",
+    "dark_ratio",
+    "yellow_ratio",
+    "green_ratio",
+    "gloss_ratio",
+    "edge_density",
+    "edge_std",
+    "texture_var",
+    "sharpness",
+    "contrast",
+    "hue_uniformity",
+    "fg_fill",
+    "center_s_mean",
+    "center_s_std",
+    "center_v_mean",
+    "center_h_std",
+    "sat_hist_0",
+    "sat_hist_1",
+    "sat_hist_2",
+    "sat_hist_3",
+    "val_hist_0",
+    "val_hist_1",
+    "val_hist_2",
+    "val_hist_3",
+    "blemish_signal",
+    "moisture_signal"
+  ],
+  "shelf_scale": 81.0,
+  "training_seconds": 468.9,
+  "data_source": "procedural horticulture renders + agronomic simulation"
+}
